@@ -1,0 +1,17 @@
+environment {
+    QT_QPA_PLATFORMTHEME "qt6ct"
+    XDG_MENU_PREFIX "arch-"
+}
+
+include "input.kdl"
+include "binds.kdl"
+include "output.kdl"
+
+include "appearance.kdl"
+
+include "window_rules.kdl"
+
+include "startup.kdl"
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+

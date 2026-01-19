@@ -1,0 +1,46 @@
+include "colors.kdl"
+
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}
+
+prefer-no-csd
+
+layout {
+    gaps 20
+
+    background-color "transparent"
+
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.5
+        proportion 1.0
+    }
+
+    preset-window-heights {
+        proportion 0.5
+        proportion 1.0
+    }
+
+    default-column-width {}
+
+    focus-ring {
+        off
+    }
+
+    border {
+    	on
+        width 2
+    }
+
+    shadow {
+        off
+        softness 30
+        spread 5
+        offset x=5 y=-5
+    }
+}
+
+include "Animations/swipe-window.kdl"

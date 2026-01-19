@@ -1,0 +1,11 @@
+layout {
+    border {
+        active-gradient from="{{colors.primary.default.hex}}" to="{{colors.secondary.default.hex}}" angle=45 relative-to="workspace-view"
+        inactive-gradient from="{{colors.surface_container_low.default.hex}}" to="{{colors.surface_container_lowest.default.hex}}" angle=45 relative-to="workspace-view"
+        urgent-color "{{colors.error.default.hex}}"
+    }
+
+    shadow {
+        color "#0007"
+    }
+}

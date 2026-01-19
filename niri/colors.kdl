@@ -1,0 +1,11 @@
+layout {
+    border {
+        active-gradient from="#d8c49c" to="#d1c5b2" angle=45 relative-to="workspace-view"
+        inactive-gradient from="#1d1b18" to="#0f0e0b" angle=45 relative-to="workspace-view"
+        urgent-color "#ffb4ab"
+    }
+
+    shadow {
+        color "#0007"
+    }
+}
